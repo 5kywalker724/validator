@@ -1,0 +1,25 @@
+{
+    "name": "5kywalker724/validator",
+    "description": "Basic validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pint",
+            "email": "olezhka.kuzmin.99@inbox.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "^12.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\Validator\\": "src/"
+        },
+        "files": [
+            "src/Validator.php"
+        ]
+    }
+}
