@@ -1,6 +1,5 @@
 <?php
-namespace src\Validator;
-
+namespace Validator;
 class Validator
 {
     private array $validators = [];
